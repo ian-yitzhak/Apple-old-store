@@ -1,0 +1,118 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.top_bg {
+    height: 500px;
+    padding-left: 260px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("images/your_verse.jpg");
+}
+
+header {
+    margin-left: 60px;
+    top: 60px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    width: 840px;
+    font-size: 17px;
+    background-color: #8093F1;
+    background: linear-gradient( #737373, #5e5e5e 50%, #747474 50%, #8a8a8a);
+    border: #6d6d6d solid 1px;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0 1px 2px;
+}
+
+header * {
+    display: inline;
+}
+
+header li {
+    margin: 20px;
+}
+
+header li a {
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+input[type=search] {
+    width: 30%;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.6) 0 2px 1px inset, rgba(255, 255, 255, 0.2) 0 1px 0;
+}
+
+.writing {
+    padding: 140px;
+    color: white;
+}
+
+.writing h1,
+h2,
+{
+    color: white;
+    font-size: 40px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.writing a {
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.container {
+    display: flex;
+}
+
+.container>div {
+    margin: 0px;
+    padding: 100px;
+}
+
+.container_section1,
+.container_section2,
+.container_section3,
+.container_section4 {
+    width: 300px;
+}
+
+.container_section1 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("images/promo_iphone5s.jpg");
+}
+
+.container_section2 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("images/promo_iphone5c.jpg");
+}
+
+.container_section3 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("images/promo_30_years.jpg");
+}
+
+.container_section4 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("images/promo_supplier_responsibility.jpg");
+}
+
+.footer {
+    padding: 0px;
+    padding-left: 180px;
+}
+
+.footer a {
+    padding: 10px;
+    text-decoration: none;
+    color: blue;
+}
